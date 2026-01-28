@@ -29,10 +29,6 @@ export default function LoginPage() {
 
   return (
     <>
-      <div className="h-84.5">
-        <Herosection />
-      </div>
-
       <div className="w-full bg-[#F5F5F5] flex flex-col items-center justify-center gap-10 font-open ">
         <div className="flex justify-center w-full">
           <h1 className="font-semibold font-open text-mainColor">
@@ -51,8 +47,6 @@ export default function LoginPage() {
             <UiComponant email={"email"} password={"password"} />
           </Formik>
         </div>
-        {/* footer componant */}
-        <Footer />
       </div>
     </>
   );
