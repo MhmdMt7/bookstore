@@ -5,6 +5,8 @@ import AddCodePage from "../pages/AddCodePage";
 import ResetPasswordPage from "../pages/ResetPasswordPage";
 import ForgetPasswordPage from "../pages/ForgetPasswordPage";
 import Mainlayout from "../layouts/MainLayout";
+import FlashSale from "../sections/FlashSale/FlashSale";
+
 // import HomePage from "../pages/HomePage";
 
 export default function RouterApp() {
@@ -12,7 +14,7 @@ export default function RouterApp() {
     <>
       <Routes>
         <Route path="/" element={<Mainlayout />}>
-          <Route index element={<h1>h1</h1>} />
+          <Route index element={<FlashSale />} />
           {/* Auth Pages */}
           <Route path="login" element={<LoginPage />} />
           <Route path="signup" element={<SignupPage />} />
