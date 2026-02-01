@@ -2,13 +2,5 @@
 @plugin "daisyui";
 
 @theme {
-  --color-mainColor: #d9176c;
-}
-
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+    --color-mainColor: #D9176C;
 }
